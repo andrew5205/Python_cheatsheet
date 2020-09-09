@@ -23,3 +23,22 @@ print(t)
 
 f = c if c < d else d
 print(f)
+
+
+
+print(not True)         # False
+print(not False)        # True
+
+
+
+# is operator 
+# The is keyword is used to test if two variables refer to the same object.
+
+x = ["apple", 'banana', "orange"]
+y = x 
+print( x == y)          # True
+
+
+w = ["tree", "flower", "grass"]
+v = ["tree", "flower", "grass"]
+print( w is v)          # False
