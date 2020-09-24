@@ -23,3 +23,22 @@ print(unorderZipped)            # [(2, 'b'), (3, 'a'), (1, 'c')]
 # for k, v in unorderZipped.items():      # AttributeError: 'list' object has no attribute 'items'
 #     print(k)
 #     print(v)
+
+
+# zip(*list) 
+# * in a function called "unpacks" 
+# like split() for JS 
+
+
+# each str in the list is also a list 
+# use * to split into alphabet 
+
+strs = ["flower","flow","flight"]
+for i in zip(*strs):
+    print(i)
+    print(set(i))
+
+# ('f', 'f', 'f')
+# ('l', 'l', 'l')
+# ('o', 'o', 'i')
+# ('w', 'w', 'g')
