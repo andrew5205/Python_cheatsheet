@@ -42,3 +42,15 @@ for i in zip(*strs):
 # ('l', 'l', 'l')
 # ('o', 'o', 'i')
 # ('w', 'w', 'g')
+
+
+
+# set() method is used to convert any of the iterable to sequence of iterable elements 
+# with dintinct elements, commonly called Set.
+
+# set(i)
+
+# set(['f'])
+# set(['l'])
+# set(['i', 'o'])
+# set(['g', 'w'])
